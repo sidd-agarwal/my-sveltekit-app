@@ -1,5 +1,6 @@
 <script>
-	import Footer from '../lib/components/footer.svelte';
+	import Cart from '$lib/components/Cart.svelte';
+import Footer from '../lib/components/footer.svelte';
 	import Header from '../lib/components/header.svelte';
 	import PlpPageLayout from '../lib/components/plpPageLayout.svelte';
 
@@ -15,3 +16,4 @@
     <PlpPageLayout />
 	<Footer />
 </div>
+<Cart/>
